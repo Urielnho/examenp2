@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# FindIt — Plataforma de Objetos Perdidos y Encontrados
 
-# Run and deploy your AI Studio app
+Sistema web para reportar, buscar y recuperar objetos perdidos dentro del campus.
 
-This contains everything you need to run your app locally.
+## Correr localmente
 
-View your app in AI Studio: https://ai.studio/apps/03866792-44dd-496d-aaf8-eecdd89b017b
+**Requisitos:** Node.js, MySQL
 
-## Run Locally
+1. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+2. Configurar variables de entorno en `env/.env`
+3. Iniciar el frontend:
+   ```bash
+   npm run dev
+   ```
+4. Iniciar el backend:
+   ```bash
+   node server.js
+   ```
 
-**Prerequisites:**  Node.js
+## Tecnologías
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React + TypeScript + Vite
+- Express.js + MySQL
+- Tailwind CSS
