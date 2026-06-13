@@ -43,7 +43,7 @@ export function AboutView({ onNavigate }: AboutViewProps) {
           <img
             alt="FindIt plataforma"
             className="w-full h-full object-cover select-none"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZU-oal63YLE5l4mDVeQyO9ZCexWBYWFuSeY8oMGcZsSCE94-xBFV1Nv840L3w8iY3B4pfwSTlg8AbE-DLIlOgPWrEuPAILMnh1BTHS6uzn2G_Lv0f577rXUuU0hxR71wUYSGNdDgWdN27ZipizMRcPYbuhNCNcv7UuKEfKONuvCqokLGgg_2GE84QCHG-jz1r0d2dGK56Bk2J2HNtZvHtU0h05LfRFX6E8RtY3qk_av1XplJLhtPnq2rOEBV16Cw8KK1jSuqZXyYI"
+            src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=640"
           />
         </div>
       </section>
